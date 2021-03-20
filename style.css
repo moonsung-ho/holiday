@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+p {
+    cursor: pointer;
+    text-align: center;
+    font-size: 200%;
+    font-family: jua;
+    border-radius: 10px;
+    font-style: normal;
+}
+h1 {
+    text-align: center;
+}
