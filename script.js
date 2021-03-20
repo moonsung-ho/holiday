@@ -10,7 +10,7 @@ function samIlJul() {
     else {
         var dayOfWeek = week[new Date(`${year}-03-01`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
 function kidsDay() {
     if (5 <= month) {
@@ -22,7 +22,7 @@ function kidsDay() {
     } else {
         var dayOfWeek = week[new Date(`${year}-05-05`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
 function hyunchungIl() {
     if (6 <= month) {
@@ -34,7 +34,7 @@ function hyunchungIl() {
     } else {
         var dayOfWeek = week[new Date(`${year}-06-06`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
 function independence() {
     if (8 <= month) {
@@ -46,7 +46,7 @@ function independence() {
     } else {
         var dayOfWeek = week[new Date(`${year}-08-15`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
 function gaeCheonJul() {
     if (10 <= month) {
@@ -58,7 +58,7 @@ function gaeCheonJul() {
     } else {
         var dayOfWeek = week[new Date(`${year}-10-03`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
 function hanGulDay() {
     if (10 <= month) {
@@ -70,7 +70,7 @@ function hanGulDay() {
     } else {
         var dayOfWeek = week[new Date(`${year}-10-09`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
 function christmas() {
     if (12 <= month) {
@@ -82,5 +82,5 @@ function christmas() {
     } else {
         var dayOfWeek = week[new Date(`${year}-12-25`).getDay()];
     }
-    alert(dayOfWeek);
+    Swal.fire({icon:"info", title:dayOfWeek});
 }
