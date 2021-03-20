@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap");
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
   text-align: center;
 }
@@ -7,7 +13,7 @@ p {
   cursor: pointer;
   text-align: center;
   font-size: 200%;
-  font-family: jua;
+  font-family: Cafe24Ohsquare;
   border-radius: 10px;
   font-style: normal;
 }
@@ -35,4 +41,13 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   cursor: help;
+}
+#input {
+    border-radius: 5px;
+    text-align: start;
+    width: 60px;
+    height: 20px;
+    font-size: 1em;
+    font-family: Helvetica, gothic A1, sans-serif;
+    border: none;
 }
