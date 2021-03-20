@@ -1,12 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap");
+* {
+  text-align: center;
+}
 p {
-    cursor: pointer;
-    text-align: center;
-    font-size: 200%;
-    font-family: jua;
-    border-radius: 10px;
-    font-style: normal;
+  cursor: pointer;
+  text-align: center;
+  font-size: 200%;
+  font-family: jua;
+  border-radius: 10px;
+  font-style: normal;
 }
 h1 {
-    text-align: center;
+  text-align: center;
+}
+span {
+  font-size: 1%;
+  color: gray;
+}
+footer {
+  font-family: Gothic A1;
+  padding-top: 10.5px;
+  padding-bottom: 5px;
+  position: fixed;
+  background-color: lightsteelblue;
+  width: 370px;
+  bottom: 0;
+  left: 0;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  border-top-right-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: help;
 }
