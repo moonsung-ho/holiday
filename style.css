@@ -8,14 +8,18 @@
 }
 * {
   text-align: center;
+  background-color: #0D101E;
 }
 p {
   cursor: pointer;
+  color: white;
   text-align: center;
   font-size: 200%;
   font-family: Cafe24Ohsquare;
   border-radius: 10px;
   font-style: normal;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-shadow: rgb(52, 133, 228) 2px 8px 40px;
 }
 h1 {
   text-align: center;
@@ -30,7 +34,7 @@ footer {
   padding-top: 10.5px;
   padding-bottom: 5px;
   position: fixed;
-  background-color: lightsteelblue;
+  background-color: lightskyblue;
   width: 370px;
   bottom: 0;
   left: 0;
@@ -42,6 +46,7 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   cursor: help;
+  background-color: lightskyblue !important;
 }
 #input {
     border-radius: 5px;
