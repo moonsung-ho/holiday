@@ -10,6 +10,12 @@
   text-align: center;
   background-color: #0D101E;
 }
+.swal2-icon-content {
+  background-color: transparent;
+}
+.swal2-header, .swal2-actions, .swal2-title, .swal2-icon { 
+  background-color: white;
+}
 p {
   cursor: pointer;
   color: white;
