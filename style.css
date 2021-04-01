@@ -61,5 +61,8 @@ a {
     height: 20px;
     font-size: 1em;
     font-family: Helvetica, gothic A1, sans-serif;
-    border: none;
+    border: 1px;
+    color: white !important;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-shadow: rgb(52, 133, 228) 2px 8px 40px !important;
 }
